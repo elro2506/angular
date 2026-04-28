@@ -8,6 +8,7 @@ img {
     padding: 10px;
     border-radius: 20px;
 justify-items: center;
+
 }
 
 .bonus img {
@@ -15,3 +16,8 @@ justify-items: center;
     margin: 0 auto;
 }
 
+@media (max-width: 600px) {
+    .bonus {
+        margin: 20px;
+    }
+}
