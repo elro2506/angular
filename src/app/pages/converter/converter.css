@@ -1,18 +1,38 @@
-.grid {
+.grid, .extra-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     box-sizing: border-box;
+    margin-top: 10px;
 }
 
-.length {
+.length, .temperature, .miles {
     background-color: #c6e9ff;
     padding: 20px;
     border-radius: 20px;
 }
 
-.temperature {
-    background-color:#c6e9ff;
+.miles {
+    background-color: #c6e9ff;
     padding: 20px;
     border-radius: 20px;
+}
+
+a {
+    color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    
+}
+
+@media (max-width: 600px) {
+    .grid, .extra-content {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        box-sizing: border-box;
+    }
 }

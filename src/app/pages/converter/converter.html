@@ -26,3 +26,26 @@
     <p>Resultat: {{ fahrenheit }} fahrenheit är {{ result4 }} celsius.</p>
 </div>
 </div>
+<div class="extra-content">
+    <div class="anekdot">
+<p>När jag var 15 år så hade jag en moped som jag körde med på landsvägar. Den var nyköpt från en vanlig butik men
+    kunde köra i 70 km/h, sägs det. Jag vet ju självklart inte det, eftersom jag bara körde i de lagliga 45 km/h även på
+    landsväg med kilometerlång sikt. I alla fall. Min hastighetsmätare hade både km/h och miles per hour på displayen och vid längre körningar
+    till stan så började siffernörden i mig att försöka räkna ut logiken i det. Jag kom fram till att 50 miles per hour motsvarade ungefär 80 km/h och kom då fram till
+    att 1 mile är 5/8 av en kilometer. Så jag räknade då genom att dividera miles med 5, för att sedan multiplicera resultatet med 8. Efter googlingar i vuxen ålder har
+jag också insett att man kan multiplicera miles med 1.6 för att få ett snabbare resultat.</p>
+    <p>Egentligen har jag inte så mycket mer att säga om detta, utan detta var bara en personlig anekdot som jag blev påmind om i denna uppgift.</p>
+    <p>Om detta var tråkigt så titta på <a href="/about">mina plantor</a> i stället :)</p>
+</div>
+<div class="miles">
+    <h2>Miles och kilometer</h2>
+    <label for="miles">Fyll i miles per hour</label><br>
+    <input type="number" id="miles" [(ngModel)]="miles"><br>
+    <button (click)="toKM()">Konvertera till kilometer i timmen</button>
+    <p>Resultat: {{ miles }} miles per hour är {{ result5 }} kilometer i timmen.</p>
+    <label for="km">Fyll i kilometer i timmen</label><br>
+    <input type="number" id="km" [(ngModel)]="km"><br>
+    <button (click)="toMiles()">Konvertera till miles</button>
+    <p>Resultat: {{ km }} kilometer i timmen är {{ result6 }} miles.</p>
+</div>
+</div>

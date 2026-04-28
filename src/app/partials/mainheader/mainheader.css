@@ -22,6 +22,7 @@ nav ul li {
     display: inline-block;
 }
 
+
 nav ul li a {
     text-decoration: none;
     margin-right: 1rem;
@@ -29,6 +30,7 @@ nav ul li a {
     font-size: 2rem;
     color: #1f5f8b;
 }
+
 
 @media (max-width: 600px) {
     nav ul {
