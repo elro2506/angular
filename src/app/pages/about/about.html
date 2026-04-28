@@ -1,0 +1,9 @@
+<h1>Om oss</h1>
+
+<input type="text" [(ngModel)]="name">
+<p>Namn: {{ name }}</p>
+<p>E-post: {{ email }}</p>
+
+@if(isStudent) {
+    <p>Är en student.</p>
+}
