@@ -1,13 +1,28 @@
 <h1>Konverterare</h1>
+<div class="grid">
+<div class="length">
+    <h2>Meter och feet</h2>
+    <label for="feet">Fyll i feet</label><br>
+    <input type="number" id="feet" [(ngModel)]="feet"><br>
+    <button (click)="toMeter()">Konvertera till meter</button>
+    <p>Resultat: {{ feet }} feet är {{ result1 }} meter.</p>
+    <label for="meter">Fyll i meter</label><br>
+    <input type="number" id="celsius" [(ngModel)]="meter"><br>
+    <button (click)="toFeet()">Konvertera till feet</button>
+    <p>Resultat: {{ meter }} meter är {{ result2 }} feet.</p>
+</div>
 
-<input type="text" [(ngModel)]="name">
-<p>Namn: {{ name }}</p>
-<p>E-post: {{ email }}</p>
+<div class="temperature">
+    <h2>Celsius och Fahrenheit</h2>
+    <label for="celsius">Fyll i celsius</label><br>
+    <input type="number" id="feet" [(ngModel)]="celsius"><br>
+    <button (click)="toFahrenheit()">Konvertera till fahrenheit</button>
 
-@if(isStudent) {
-    <p>Är en student.</p>
-}
+    <p>Resultat: {{ celsius }} celsius är {{ result3 }} fahrenheit.</p>
 
-<h2>Meter och feet</h2>
-
-<h2>Celsius och Fahrenheit</h2>
+    <label for="fahrenheit">Fyll i fahrenheit</label><br>
+    <input type="number" id="fahrenheit" [(ngModel)]="fahrenheit"><br>
+    <button (click)="toCelsius()">Konvertera till celsius</button>
+    <p>Resultat: {{ fahrenheit }} fahrenheit är {{ result4 }} celsius.</p>
+</div>
+</div>

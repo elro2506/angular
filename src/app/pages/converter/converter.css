@@ -1,0 +1,18 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.length {
+    background-color: #c6e9ff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.temperature {
+    background-color:#c6e9ff;
+    padding: 20px;
+    border-radius: 20px;
+}
