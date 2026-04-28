@@ -1,6 +1,21 @@
+header {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
 nav ul {
     list-style: none;
+    display: flex;
     padding: 0;
+    gap: 40px;
 }
 
 nav ul li {
@@ -11,4 +26,14 @@ nav ul li a {
     text-decoration: none;
     margin-right: 1rem;
     margin-left: 0;
+    font-size: 2rem;
+    color: #1f5f8b;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
 }
