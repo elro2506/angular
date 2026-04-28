@@ -1,0 +1,17 @@
+img {
+    max-width: 300px;
+    border-radius: 30px;
+}
+
+.bonus {
+    border: 1px dotted black;
+    padding: 10px;
+    border-radius: 20px;
+justify-items: center;
+}
+
+.bonus img {
+    display: block;
+    margin: 0 auto;
+}
+

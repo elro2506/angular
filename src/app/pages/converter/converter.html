@@ -1,1 +1,13 @@
-<p>converter works!</p>
+<h1>Konverterare</h1>
+
+<input type="text" [(ngModel)]="name">
+<p>Namn: {{ name }}</p>
+<p>E-post: {{ email }}</p>
+
+@if(isStudent) {
+    <p>Är en student.</p>
+}
+
+<h2>Meter och feet</h2>
+
+<h2>Celsius och Fahrenheit</h2>
