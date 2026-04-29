@@ -27,3 +27,7 @@ Kilometer i timmen till miles per hour, och vice versa
 ## Klona repot
 ```bash
 git clone https://github.com/elro2506/angular.git
+```
+
+## Min Webbplats
+Här är den: https://angular-labb3.netlify.app/ 
